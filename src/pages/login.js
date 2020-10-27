@@ -3,7 +3,7 @@ import {
   View, Text, KeyboardAvoidingView, TextInput,
   TouchableOpacity, StyleSheet, Animated
 } from 'react-native';
-import firebase from '../firebase';
+import firebase from '../../firebase';
 
 
 export default function App({navigation}) {
@@ -54,7 +54,7 @@ export default function App({navigation}) {
             width: logo.x,
             height: logo.y
           }}
-          source={require('../assets/logo.png')}
+          source={require('../../assets/logo.png')}
         />
         <Text>Deus Seja Louvado</Text>
       </View>
